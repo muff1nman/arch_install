@@ -1,0 +1,4 @@
+replace#global#--with-compiledby='Arch Linux'#--with-compiledby='Andrew DeMaria'
+replace#global#--disable-pythoninterp#--enable-pythoninterp
+replace#global#--disable-python3interp#--enable-python3interp
+replace#global#--disable-rubyinterp#--enable-rubyinterp
