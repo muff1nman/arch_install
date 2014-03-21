@@ -19,6 +19,6 @@ makepkg -is
 echo "Installing optional dependencies of yaourt"
 yaourt -S --asdeps customizepkg aurvote rsync
 
-aurvote --configure
+# install aur vote via scp later?
 
 echo "Done"
