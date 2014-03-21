@@ -1,6 +1,8 @@
 base
 yaourt
+package_manager_configs
 ssh
 vmware
 vim
 awesome
+terminal
