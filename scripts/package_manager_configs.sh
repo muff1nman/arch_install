@@ -7,7 +7,10 @@
 #
 
 echo "Carefull! Package manager configs about to be overridden!"
-read "Press control C now if you dont want to continue"
-sudo cp ../configs/yaourtrc /etc/yaourtrc
-sudo cp ../configs/pacman.conf /etc/pacman.conf
+echo "Press control C now if you dont want to continue"
+read ignore
+echo 'sudo cp -n ../configs/yaourtrc /etc/yaourtrc'
+sudo cp -n ../configs/yaourtrc /etc/yaourtrc
+echo 'sudo cp -n ../configs/pacman.conf /etc/pacman.conf'
+sudo cp -n ../configs/pacman.conf /etc/pacman.conf
 
